@@ -24,9 +24,9 @@ io.on("connection", (socket) => {
     }
   });
 });
-app.route("/").get((req, res) => {
-  return res.json("Your app is working fine");
-});
+// app.route("/").get((req, res) => {
+//   return res.json("Your app is working fine");
+// });
 app.route("/check").get((req,res)=>{
   return res.json("Your app is working fine");
 })
